@@ -23,12 +23,12 @@
 
     elao_apt_components: ['main']
 
-    elao_apt_sources_list_template: sources_list/base.list.j2
+    elao_apt_sources_list_template: sources_list/debian.list.j2
 
     elao_apt_repositories:
-      - security
-      - updates
-      - backports
+      - debian_security
+      - debian_updates
+      - debian_backports
 
     elao_apt_preferences: []
 

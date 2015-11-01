@@ -38,6 +38,7 @@
     # Sudo #
     ########
 
+    elao_sudo_sudoers_exclusive: true
     elao_sudo_sudoers:
       - file: "{{ _user }}"
         config:

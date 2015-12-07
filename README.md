@@ -10,7 +10,7 @@
    * Vim 7.4
    * Git 2.1.4
    * Oh-my-zsh
-   * Make 3.81
+   * Make 4.0
    * Acl
 
 ## Miscellaneous ##

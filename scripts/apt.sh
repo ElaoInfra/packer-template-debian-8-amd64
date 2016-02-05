@@ -14,7 +14,7 @@ EOF
 
 apt-get -y install apt-transport-https
 
-cat <<EOF > /etc/apt/sources.list.d/elao.list
+cat <<EOF > /etc/apt/sources.list.d/debian_elao_com.list
 deb https://debian.elao.com jessie main
 EOF
 

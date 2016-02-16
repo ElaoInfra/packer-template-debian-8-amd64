@@ -4,4 +4,8 @@
 
   vars:
 
+    # Set by vagrant
+    # =============
+    #_user:  vagrant
+    #_group: vagrant
   roles:

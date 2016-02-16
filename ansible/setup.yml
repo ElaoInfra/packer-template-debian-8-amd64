@@ -11,6 +11,7 @@
     #_description: Foo bar
     #_version:     x.x.x
     #_user:        vagrant|docker
+    #_group:       vagrant|docker
     #_type:        vagrant|docker
 
     ########
@@ -87,10 +88,13 @@
         password: $6$rounds=100000$k85Toreb5r46eSdi$rPC1sKCeMMcF5bSrvVhuklK9eUMYnEhtSQv2.xqqI9Yx67eILmmlQSU2HhzzNO8VDyLZM0OcTVZ7GmVVs0TpQ0
         keys: []
 
+    elao_users_groups:
+      - name: "{{ _group }}"
+
     elao_users:
       - name:     "{{ _user }}"
         password: "{{ _users[_user]['password'] }}"
-        group:    users
+        group:    "{{ _group }}"
         groups:   ['sudo']
         authorized_keys: "{{ _users[_user]['keys'] }}"
 

@@ -21,6 +21,8 @@
 ### 2.0.1
 
 * Remove acl
+* Vagrant user is now member of group "vagrant" (was "users" before)
+
 ### 2.0.0
 
 * Add elao debian repository

@@ -2,7 +2,7 @@
     "variables": {
         "name"        : "debian-8-amd64",
         "description" : "Debian 8 - amd64",
-        "version"     : "2.0.0"
+        "version"     : "2.0.1"
     },
     "builders": [
         {

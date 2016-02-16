@@ -11,7 +11,6 @@
    * Git 2.1.4
    * Oh-my-zsh
    * Make 4.0
-   * Acl
 
 ## Miscellaneous ##
 
@@ -19,6 +18,9 @@
  * Vim customization (default editor, syntax highlighting, ...)
  * Increase git performance over nfs with *core.preloadindex true*
 
+### 2.0.1
+
+* Remove acl
 ### 2.0.0
 
 * Add elao debian repository

@@ -6,7 +6,7 @@
    * Openssh-server
    * Nfs support (nfs-common, cachefilesd)
    * VirtualBox Guest Additions 5.0.14 (dkms, linux-headers)
-   * Ansible 2.0.0.2 (elao)
+   * Ansible 2.0.1.0 (elao)
    * Vim 7.4
    * Git 2.1.4
    * Oh-my-zsh
